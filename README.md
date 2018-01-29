@@ -15,14 +15,14 @@ Made in under 24 hours for BrickHack4 at the Rochester Institute of Technology.
 - lobally installed React Native CLI
 
 1b) NativeBase vector icons
-'''
+```
 - npm install react-native-vector-icons --save
-'''
+```
 
 2) React Native Search Filter (https://www.npmjs.com/package/react-native-search-filter)
-'''
+```
 - $ npm install react-native-search-filter --save
-'''
+```
 
 [Video demo of Rasp Pi sensitivity](https://github.com/zbanack/laundry/blob/master/Laundry/Showcasing/unit_test.MOV?raw=true)
 
