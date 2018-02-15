@@ -32,6 +32,14 @@ Made in under 24 hours for BrickHack4 at the Rochester Institute of Technology.
 
 _disclaimer:_ I wrote this in 24 hours. It is not perfect.
 
+* Connect the MPU6050 to labeled pins on the Pi
+    * Pin 1 - 3.3V connect to VCC
+    * Pin 3 - SDA connect to SDA
+    * Pin 5 - SCL connect to SCL
+    * Pin 6 - Ground connect to GND
+    
+* Ensure that persistent light comes on. Otherwise it may be an indicator that the device is broken.
+
 * Clone to directory using 
 ```
 git clone https://github.com/zbanack/laundry
