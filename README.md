@@ -6,7 +6,7 @@ Real-time, scalable, non-crowdsourced washer and dryer availability statuses for
 
 Made in under 24 hours for BrickHack4 at the Rochester Institute of Technology.
 
-## Installation
+## Installation of frontend
 
 1a) NativeBase library (http://docs.nativebase.io/docs/GetStarted.html)
 - See 'System Requirements'
@@ -27,3 +27,18 @@ Made in under 24 hours for BrickHack4 at the Rochester Institute of Technology.
 [Video demo of Rasp Pi sensitivity](https://github.com/zbanack/laundry/blob/master/Laundry/Showcasing/unit_test.MOV?raw=true)
 
 ![Timelapse of frontend dev, GUI](https://github.com/zbanack/laundry/blob/master/Laundry/Showcasing/lndry-progress.gif?raw=true)
+
+## Installation on PI
+
+_disclaimer:_ I wrote this in 24 hours. It is not perfect.
+
+* Clone to directory using 
+```
+git clone https://github.com/zbanack/laundry
+```
+* run setup.sh in "pi/". This will install apache2, set it to run on boot, then it will add the sensor script to your rc.local file.
+```
+cd pi/
+sudo bash setup.sh
+```
+* It will then reboot and be functional. To access the data, connect to the web server on the pi.
